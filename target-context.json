@@ -1,0 +1,36 @@
+{
+  "verified_on": "2026-11-13",
+  "targets": {
+    "ADRB2_BioEmu2_29_365": {
+      "title": "Human beta2AR / ADRB2",
+      "record_summary": "P07550 canonical construct29\u2013365 (337aa);jointfituses272shared observed C-alpha positions. BioEmu2 coordinates retain337residues; normalized2RH1/3SN6retain282/284observed receptor residues. Originaldepositions retain their ligand/partner/fusion context.",
+      "project_writeup": {
+        "status": "Joint BioEmu2 +2engineered experimental state-anchor analysis",
+        "biological_relevance": "Extracellular antagonist design reference target;this ensemble does not establish antagonism or an inactive state.",
+        "ensemble_interpretation": "All1000physicality-passing frames plus2engineered state anchors are jointly fit on272shared observed positions. Fixed reference stars do not automatically annotate receptor states or validate antagonism. The full337predecessor remains unchanged.",
+        "project_citations": []
+      },
+      "references": [
+        {
+          "label": "UniProt P07550",
+          "url": "https://www.uniprot.org/uniprotkb/P07550/entry"
+        },
+        {
+          "label": "BioEmu2 source",
+          "url": "https://github.com/microsoft/bioemu2"
+        },
+        {
+          "label": "Experimental inactive state anchor: 2RH1 A (engineered)",
+          "url": "https://www.rcsb.org/structure/2RH1"
+        },
+        {
+          "label": "Experimental active state anchor: 3SN6 R (engineered)",
+          "url": "https://www.rcsb.org/structure/3SN6"
+        }
+      ],
+      "provenance": {
+        "analysis_sequence_sha256": "7aa2014d09e134edbb65da0892198121057771db82e7026451f200be62f8532a"
+      }
+    }
+  }
+}

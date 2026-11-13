@@ -1,0 +1,9 @@
+{
+  "targets": [
+    {
+      "id": "ADRB2_BioEmu2_29_365",
+      "label": "Human beta2AR \u00b7 BioEmu2",
+      "data": "ADRB2_BioEmu2_29_365/primary.json"
+    }
+  ]
+}

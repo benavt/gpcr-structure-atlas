@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "target": "ADRB2_BioEmu2_29_365",
+      "range": "shared272_observed_minus96_98_187",
+      "variant": "UMAP KNN",
+      "fit_models": 1002,
+      "display_models": 1002,
+      "experimental_models": 2,
+      "assigned_clusters": 1,
+      "PDB_entry_medoids": 2,
+      "unassigned": 0,
+      "view_file": "ADRB2_BioEmu2_29_365/primary.json",
+      "native_roster_sha256": "5d2c7d677f940359911d18a9341158204cc5ac3711cb8c69aa003d6d0a51ccc7",
+      "status": "saved_science_and_native_coordinate_hashes_independently_verified",
+      "comparison_groups": 3,
+      "experimental_entry_comparison_groups": 2
+    },
+    {
+      "target": "ADRB2_BioEmu2_29_365",
+      "range": "shared272_observed_minus96_98_187",
+      "variant": "HDBSCAN",
+      "fit_models": 1002,
+      "display_models": 1002,
+      "experimental_models": 2,
+      "assigned_clusters": 6,
+      "PDB_entry_medoids": 2,
+      "unassigned": 719,
+      "view_file": "ADRB2_BioEmu2_29_365/density.json",
+      "native_roster_sha256": "5d2c7d677f940359911d18a9341158204cc5ac3711cb8c69aa003d6d0a51ccc7",
+      "status": "saved_science_and_native_coordinate_hashes_independently_verified",
+      "comparison_groups": 8,
+      "experimental_entry_comparison_groups": 2
+    }
+  ],
+  "browser_status": "Acceptance recorded separately in browser-acceptance.json before handoff",
+  "presentation_policy": "Counts distinguish assigned clustering groups from separately labelled PDB-entry comparison medoids; scientific membership labels and files unchanged."
+}
